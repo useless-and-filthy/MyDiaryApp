@@ -88,7 +88,6 @@ public class MainActivity extends AppCompatActivity {
     // powerful query
     private String searchText = "";
     private String tagText = "";
-    private int skip = 0;
     SharedPreferences sharedPreferences;
     private boolean isArchived = false;
     private SwipeRefreshLayout mSwipeRefreshLayout;
