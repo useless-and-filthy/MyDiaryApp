@@ -22,7 +22,7 @@ public interface DiaryDao {
     @Query("SELECT * FROM Diary ORDER BY createdAt desc")
     List<Diary> getAll();
 
-    @Query("SELECT * FROM Diary WHERE objectId IS NULL AND updatedAt>=:laststamp")
+    @Query("SELECT * FROM Diary WHERE updatedAt>=:laststamp")
     List<Diary> getOfflineDiaries(long laststamp);
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)

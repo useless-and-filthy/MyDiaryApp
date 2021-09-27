@@ -198,6 +198,7 @@ public class AddEditDiary extends AppCompatActivity implements HTMLFragment.Dial
                 diary.setContent(mEditor.getHtml());
                 diary.setCategories(getTagsText());
                 diary.setFilesString(fileList);
+                diary.setUpdatedAt(System.currentTimeMillis());
             }
 
             db.diaryDao().insert(diary);

@@ -134,6 +134,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if (sharedPreferences.getBoolean(SP_AUTO_SYNC_KEY, false)) {
+            Log.d(TAG, "onCreate: "+sharedPreferences.getLong(SP_LAST_SYNC_STAMP, 0));
             sync(sharedPreferences.getLong(SP_LAST_SYNC_STAMP, 0));
         }
 
@@ -391,6 +392,12 @@ public class MainActivity extends AppCompatActivity {
     private void sync(long last_sync_stamp) {
         //get all data
         //showProgressBar();
+        List<Diary> offDiaries = db.diaryDao().getOfflineDiaries(last_sync_stamp);
+        Log.d(TAG, "uploadToCloud: offline size "+offDiaries.size());
+        for (Diary dd : offDiaries) {
+            uploadOfflineFiles(dd);
+        }
+
         ParseQuery<ParseObject> query = ParseQuery.getQuery(DIARY_CLASS_NAME);
         query.whereEqualTo(DIARY_USER, ParseUser.getCurrentUser());
         Date d = new Date();
@@ -402,19 +409,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void done(int count, ParseException e) {
                 if (e == null) {
-                    Log.d(TAG, "done: count is " + count);
-
                     BigDecimal original = BigDecimal.valueOf((double) count / 100);
                     BigDecimal scaled = original.setScale(0, BigDecimal.ROUND_CEILING);
                     int itr = scaled.intValue();
-                    Log.d(TAG, "done: scale" + itr);
                     for (int i = 0; i < itr; i++) {
                         fetchFromCloud(query, i * 100);
                     }
                 }
             }
         });
-        uploadToCloud(last_sync_stamp);
     }
 
     private void fetchFromCloud(ParseQuery<ParseObject> query, int skip) {
@@ -437,14 +440,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-    }
-
-    private void uploadToCloud(long last) {
-        List<Diary> offDiaries = db.diaryDao().getOfflineDiaries(last);
-        for (Diary dd : offDiaries) {
-            uploadOfflineFiles(dd);
-        }
-        syncDone();
     }
 
     private Diary getDiary(ParseObject d) {
@@ -471,7 +466,6 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public void done(ParseException e) {
                             if (e == null) {
-                                Log.d(TAG, "done: upload" + parseFile.getUrl());
                                 di.setContent(di.getContent().replace(ur, parseFile.getUrl()));
                             } else {
                                 Log.d(TAG, "done: file upload " + e.getMessage());
@@ -480,7 +474,7 @@ public class MainActivity extends AppCompatActivity {
                             if (!di.getContent().contains("file://")) {
                                 createParseObject(di);
                             } else {
-                                Log.d(TAG, "done: ");
+                                Log.d(TAG, "done: replacing");
                             }
                         }
                     });
@@ -509,7 +503,7 @@ public class MainActivity extends AppCompatActivity {
                     Log.d(TAG, "done: saved --");
                     db.diaryDao().delete(di);
                 } else {
-                    Log.d(TAG, "done: upload error " + e.getMessage());
+                    Log.d(TAG, "done: upload error object" + e.getMessage());
                 }
             }
         });
