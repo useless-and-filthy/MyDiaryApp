@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddEditDiary">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/action_bold"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/bold" />
+
+        <ImageButton
+            android:id="@+id/action_italic"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/italic" />
+
+        <ImageButton
+            android:id="@+id/action_underline"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/underlined" />
+
+        <ImageButton
+            android:id="@+id/action_strikethrough"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/strikethrough" />
+
+        <ImageButton
+            android:id="@+id/action_heading1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_heading1" />
+
+        <ImageButton
+            android:id="@+id/action_heading2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_heading2" />
+
+        <ImageButton
+            android:id="@+id/action_heading3"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_heading3" />
+
+        <ImageButton
+            android:id="@+id/action_heading4"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_heading4" />
+
+        <ImageButton
+            android:id="@+id/action_insert_link"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/insert_link" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/action_insert_numbers"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/numbered" />
+
+        <ImageButton
+            android:id="@+id/action_insert_bullets"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/bullet" />
+
+        <ImageButton
+            android:id="@+id/action_indent"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/indent" />
+
+        <ImageButton
+            android:id="@+id/action_outdent"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/outdent" />
+
+        <ImageButton
+            android:id="@+id/action_align_left"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/justify_left" />
+
+        <ImageButton
+            android:id="@+id/action_align_center"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/justify_center" />
+
+        <ImageButton
+            android:id="@+id/action_align_right"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/justify_right" />
+
+        <ImageButton
+            android:id="@+id/action_insert_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@android:drawable/checkbox_on_background" />
+
+
+
+        <ImageButton
+            android:id="@+id/action_insert_media"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/insert_image" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#efefef" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/diary_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:fontFamily="serif"
+            android:hint="Title"
+            android:inputType="text"
+            android:padding="12dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="Tags"
+                android:textSize="16sp" />
+
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/diary_tags"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:digits="0,1,2,3,4,5,6,7,8,9,*,qwertzuiopasdfghjklyxcvbnmABCDEFGHIJKLMNOPQRSTUVWXYZ,;, ,"
+                android:hint="Seperated by ;"
+                android:padding="12dp"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <com.akigon.mydiary.RichEditor
+            android:id="@+id/editor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/b_margin" />
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

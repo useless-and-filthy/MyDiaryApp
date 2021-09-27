@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Diary</string>
+    <string name="sign_up">New here? <b>Sign up</b></string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">vmlNiljZkW6EfiY8jdBInXU4tpR37Pp1I83YPC0p</string>
+    <string name="back4app_client_key">P7lf2cXYOT3IcBBb5tEvhNOt7TzQ728XnGmFNcAS</string>
+
+    <string name="diary_edit_help">
+        Title  &amp; content in diary is required\n\nCategories are separated by comma (,)\n\nHope it has helped!\n\nHappy Writing Diary
+    </string>
+</resources>

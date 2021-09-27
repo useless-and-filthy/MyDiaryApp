@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MaterialDialogSheet" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowAnimationStyle">@style/MaterialDialogSheetAnimation</item>
+    </style>
+
+
+    <style name="MaterialDialogSheetAnimation">
+        <item name="android:windowEnterAnimation">@anim/popup_show</item>
+        <item name="android:windowExitAnimation">@anim/popup_hide</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.MyDiary">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="numkeys">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:background">@drawable/bg_keys</item>
+        <item name="android:onClick">insertInt</item>
+    </style>
+    <style name="opkeys">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:background">@drawable/bg_keys</item>
+    </style>
+
+    <style name="WhiteAccent" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">#FFF</item>
+    </style>
+</resources>

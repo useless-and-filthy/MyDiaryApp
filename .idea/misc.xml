@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Codes/Android/AndroidStudioProjects/MyDiary/app/src/main/res/drawable/button_bg.xml" value="0.19722222222222222" />
+        <entry key="..\:/Codes/Android/AndroidStudioProjects/MyDiary/app/src/main/res/drawable/redo.xml" value="0.2703125" />
+        <entry key="..\:/Codes/Android/AndroidStudioProjects/MyDiary/app/src/main/res/drawable/undo.xml" value="0.2703125" />
+        <entry key="..\:/Codes/Android/AndroidStudioProjects/MyDiary/app/src/main/res/layout/activity_add_edit_diary.xml" value="0.264" />
+        <entry key="..\:/Codes/Android/AndroidStudioProjects/MyDiary/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Codes/Android/AndroidStudioProjects/MyDiary/app/src/main/res/layout/activity_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/Codes/Android/AndroidStudioProjects/MyDiary/app/src/main/res/layout/activity_view_diary.xml" value="0.25416666666666665" />
+        <entry key="..\:/Codes/Android/AndroidStudioProjects/MyDiary/app/src/main/res/layout/bottom_media_options.xml" value="0.2" />
+        <entry key="..\:/Codes/Android/AndroidStudioProjects/MyDiary/app/src/main/res/layout/edit_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Codes/Android/AndroidStudioProjects/MyDiary/app/src/main/res/layout/input_link_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Codes/Android/AndroidStudioProjects/MyDiary/app/src/main/res/menu/add_edit_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Codes/Android/AndroidStudioProjects/MyDiary/app/src/main/res/menu/edit_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Github/AndroidStudioProjects/MyDiary/app/src/main/res/layout/activity_add_edit_diary.xml" value="0.25416666666666665" />
+        <entry key="..\:/Github/AndroidStudioProjects/MyDiary/app/src/main/res/layout/activity_main.xml" value="0.18333333333333332" />
+        <entry key="..\:/Github/AndroidStudioProjects/MyDiary/app/src/main/res/layout/activity_main2.xml" value="0.2" />
+        <entry key="..\:/Github/AndroidStudioProjects/MyDiary/app/src/main/res/layout/activity_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/Github/AndroidStudioProjects/MyDiary/app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="..\:/Github/AndroidStudioProjects/MyDiary/app/src/main/res/layout/activity_view_diary.xml" value="0.25416666666666665" />
+        <entry key="..\:/Github/AndroidStudioProjects/MyDiary/app/src/main/res/layout/bottom_options_diary.xml" value="0.4" />
+        <entry key="..\:/Github/AndroidStudioProjects/MyDiary/app/src/main/res/layout/fragment_html.xml" value="0.536" />
+        <entry key="..\:/Github/AndroidStudioProjects/MyDiary/app/src/main/res/layout/tag_view.xml" value="0.13020833333333334" />
+        <entry key="..\:/Github/AndroidStudioProjects/MyDiary/app/src/main/res/menu/add_edit_menu.xml" value="0.11302083333333333" />
+        <entry key="..\:/Github/AndroidStudioProjects/MyDiary/app/src/main/res/menu/edit_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Github/AndroidStudioProjects/MyDiary/app/src/main/res/menu/main_menu.xml" value="0.22777777777777777" />
+        <entry key="..\:/Google Drive/Codes/AndroidStudioProjects/MyDiary/app/src/main/res/drawable-anydpi/ic_heading1.xml" value="0.1824074074074074" />
+        <entry key="..\:/Google Drive/Codes/AndroidStudioProjects/MyDiary/app/src/main/res/drawable-anydpi/ic_heading2.xml" value="0.1824074074074074" />
+        <entry key="..\:/Google Drive/Codes/AndroidStudioProjects/MyDiary/app/src/main/res/drawable-anydpi/ic_heading3.xml" value="0.1824074074074074" />
+        <entry key="..\:/Google Drive/Codes/AndroidStudioProjects/MyDiary/app/src/main/res/drawable-anydpi/ic_heading4.xml" value="0.1824074074074074" />
+        <entry key="..\:/Google Drive/Codes/AndroidStudioProjects/MyDiary/app/src/main/res/drawable/bg_round_black.xml" value="0.14635416666666667" />
+        <entry key="..\:/Google Drive/Codes/AndroidStudioProjects/MyDiary/app/src/main/res/drawable/button_bg.xml" value="0.19444444444444445" />
+        <entry key="..\:/Google Drive/Codes/AndroidStudioProjects/MyDiary/app/src/main/res/drawable/justify_center.xml" value="0.1824074074074074" />
+        <entry key="..\:/Google Drive/Codes/AndroidStudioProjects/MyDiary/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Google Drive/Codes/AndroidStudioProjects/MyDiary/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Google Drive/Codes/AndroidStudioProjects/MyDiary/app/src/main/res/layout/activity_settings.xml" value="0.25416666666666665" />
+        <entry key="..\:/Google Drive/Codes/AndroidStudioProjects/MyDiary/app/src/main/res/layout/activity_signup.xml" value="0.25416666666666665" />
+        <entry key="..\:/Google Drive/Codes/AndroidStudioProjects/MyDiary/app/src/main/res/layout/activity_splash_screen.xml" value="0.13020833333333334" />
+        <entry key="..\:/Google Drive/Codes/AndroidStudioProjects/MyDiary/app/src/main/res/layout/activity_view_diary.xml" value="0.25416666666666665" />
+        <entry key="..\:/Google Drive/Codes/AndroidStudioProjects/MyDiary/app/src/main/res/layout/edit_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Google Drive/Codes/AndroidStudioProjects/MyDiary/app/src/main/res/layout/input_link_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Google Drive/Codes/AndroidStudioProjects/MyDiary/app/src/main/res/layout/item_journal.xml" value="0.25416666666666665" />
+        <entry key="..\:/Google Drive/Codes/AndroidStudioProjects/MyDiary/app/src/main/res/layout/tag_view.xml" value="0.25416666666666665" />
+        <entry key="..\:/Google Drive/Codes/AndroidStudioProjects/MyDiary/app/src/main/res/xml/file_path.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="org.jetbrains.annotations.Nullable" />
+    <option name="myDefaultNotNull" value="androidx.annotation.RecentlyNonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="14">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+          <item index="3" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+          <item index="5" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+          <item index="6" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="7" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+          <item index="10" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+          <item index="11" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.Nullable" />
+          <item index="12" class="java.lang.String" itemvalue="io.reactivex.annotations.Nullable" />
+          <item index="13" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.Nullable" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="14">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="2" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+          <item index="5" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+          <item index="6" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+          <item index="10" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.NonNull" />
+          <item index="11" class="java.lang.String" itemvalue="io.reactivex.annotations.NonNull" />
+          <item index="12" class="java.lang.String" itemvalue="io.reactivex.rxjava3.annotations.NonNull" />
+          <item index="13" class="java.lang.String" itemvalue="lombok.NonNull" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

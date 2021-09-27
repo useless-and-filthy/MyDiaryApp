@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/journal_row_created_on"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/b_margin"
+            android:text="@string/app_name"/>
+
+        <com.akigon.mydiary.RichEditor
+            android:id="@+id/vidPreview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/b_margin"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imgPreview"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@null"
+            android:layout_marginBottom="@dimen/b_margin"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/journal_row_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/b_margin"
+            android:layout_marginEnd="@dimen/b_margin"
+            android:layout_marginBottom="@dimen/b_margin"
+            android:text="@string/app_name"
+            android:textSize="@dimen/b_title"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+
+        <TextView
+            android:id="@+id/journal_row_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/b_margin"
+            android:layout_marginEnd="@dimen/b_margin"
+            android:layout_marginBottom="@dimen/b_margin"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:text="@string/app_name"
+            android:textSize="@dimen/b_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="@dimen/b_margin"
+            android:background="#cacaca" />
+
+        <TextView
+            android:id="@+id/journal_row_tags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/b_margin"
+            android:layout_marginEnd="@dimen/b_margin"
+            android:text="Tags"/>
+
+
+        <TextView
+            android:id="@+id/journal_row_modified_on"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/b_margin"
+            android:gravity="end"
+            android:text="Updated: "/>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

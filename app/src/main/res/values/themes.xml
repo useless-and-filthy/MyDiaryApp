@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyDiary" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#00264D</item>
+        <item name="colorPrimaryVariant">#00264D</item>
+        <item name="colorOnPrimary">?android:attr/textColorPrimary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#00264D</item>
+        <item name="colorSecondaryVariant">#00264D</item>
+        <item name="colorOnSecondary">#00264D</item>
+        <item name="fontFamily">@font/my_font</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">#00264D</item>
+        <item name="android:textColor">@color/black</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.PC" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">?android:attr/textColorPrimary</item>
+        <item name="colorPrimaryVariant">?android:attr/textColorPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#00264D</item>
+        <item name="colorSecondaryVariant">#00264D</item>
+        <item name="colorOnSecondary">#00264D</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+</resources>
